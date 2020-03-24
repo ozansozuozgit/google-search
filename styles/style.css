@@ -141,6 +141,10 @@ hr {
   margin-top: 20px;
 }
 
+.result-link-container {
+  margin-bottom: 20px;
+}
+
 .link-address {
   color: #202124;
   text-decoration: none;
@@ -172,6 +176,7 @@ hr {
 .result-description {
   margin-top: 8px;
   line-height: 25px;
+  margin-bottom: 3px;
 }
 
 #plans-products {
