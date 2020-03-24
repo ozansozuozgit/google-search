@@ -124,9 +124,10 @@ hr {
 }
 
 #results-info {
-  margin-left: 185px;
+  margin-left: 175px;
   font-size: 15px;
   min-width: 1000px;
+  margin-bottom: 0;
   color: #5f6368;
 }
 
@@ -137,6 +138,7 @@ hr {
   flex-direction: column;
   width: 700px;
   margin-left: 175px;
+  margin-top: 20px;
 }
 
 .link-address {
@@ -168,7 +170,7 @@ hr {
 }
 
 .result-description {
-  margin: 8px 0;
+  margin-top: 8px;
   line-height: 25px;
 }
 
@@ -184,4 +186,19 @@ hr {
 }
 #plans-products p {
   margin-top: 5px;
+}
+
+.result-nav-links-container {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  width: 700px;
+  margin: 0;
+  margin-left: -5px;
+}
+
+.result-nav-links {
+  margin-top: 5px;
+  margin-left: 5px;
+  color: #1a0cab;
 }
