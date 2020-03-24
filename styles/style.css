@@ -2,6 +2,10 @@ body {
   font-family: arial, sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 #main-input-container {
   display: flex;
   justify-content: space-between;
@@ -91,7 +95,6 @@ body {
 }
 
 .nav-links {
-  text-decoration: none;
   color: #5f6368;
   font-size: 14.5px;
   margin-left: 5px;
@@ -123,5 +126,62 @@ hr {
 #results-info {
   margin-left: 185px;
   font-size: 15px;
+  min-width: 1000px;
   color: #5f6368;
+}
+
+/* Search results         */
+
+.base-search-result-container {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  margin-left: 175px;
+}
+
+.link-address {
+  color: #202124;
+  text-decoration: none;
+}
+
+/* Underline only the headers and not address link on top */
+.link-address:hover .result-header,
+.result-header:hover {
+  text-decoration: underline;
+}
+
+#ad-font-dot {
+  font-weight: bold;
+}
+
+#down-icon {
+  height: 11px;
+  margin-left: 7px;
+}
+
+.result-header {
+  font-size: 23px;
+  font-weight: normal;
+  color: #1a0cab;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.result-description {
+  margin: 8px 0;
+  line-height: 25px;
+}
+
+#plans-products {
+  display: flex;
+  margin-left: 20px;
+}
+
+#plans-products-right,
+#plans-products-left {
+  margin: 5px;
+  width: 280px;
+}
+#plans-products p {
+  margin-top: 5px;
 }
