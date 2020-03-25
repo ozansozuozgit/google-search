@@ -276,6 +276,7 @@ hr {
 /* VIDEOS */
 #videos-container {
   display: flex;
+  position: relative;
   /* border: 1px solid black; */
   width: 720px;
 }
@@ -323,4 +324,19 @@ hr {
 
 .video-link:hover {
   text-decoration: underline;
+}
+
+#right-arrow {
+  position: absolute;
+  left: 698px;
+  top: 145px;
+  height: 30px;
+  border-radius: 50%;
+  box-shadow: 0 0 5px #9e9e9e;
+  background-color: #fffc;
+  padding: 4px;
+}
+
+#right-arrow:hover {
+  cursor: pointer;
 }
