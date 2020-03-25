@@ -490,8 +490,7 @@ hr {
 
 #related-phrase-container {
   display: flex;
-  margin-bottom: 100px;
-  /* line-height: 30px; */
+  margin-bottom: 40px;
 }
 
 .related-phrase {
@@ -501,4 +500,41 @@ hr {
 }
 .related-phrase:hover {
   text-decoration: underline;
+}
+
+#google-letters {
+  margin-left: 190px;
+}
+
+#letters {
+  display: flex;
+}
+.google-letters {
+  background: url(https://www.google.com/images/nav_logo299.webp) no-repeat;
+  height: 40px;
+  display: block;
+}
+
+td {
+  text-align: center;
+}
+td a {
+  color: #1973e8;
+}
+
+td a:hover {
+  text-decoration: underline;
+}
+
+#first-link {
+  color: black;
+  text-decoration: none;
+}
+#first-link:hover {
+  cursor: default;
+}
+
+#next-symbol {
+  width: 30px;
+  margin-left: 20px;
 }
