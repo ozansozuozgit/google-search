@@ -231,6 +231,7 @@ hr {
   border: 1px solid #dfe1e5;
   border-radius: 10px;
   padding: 19px 19px 19px 19px;
+  width: 710px;
 }
 
 #snippet-description {
@@ -241,4 +242,27 @@ hr {
 
 .result-icons {
   margin-right: 10px;
+}
+
+#featured-snippet-about {
+  display: flex;
+  justify-content: flex-end;
+  width: 730px;
+  margin-bottom: 35px;
+}
+
+.snippet-links {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #5f6368;
+}
+
+.snippet-links:hover {
+  text-decoration: underline;
+}
+
+.snippet-icons {
+  height: 18px;
+  margin-bottom: -6px;
+  padding: 0 10px;
 }
