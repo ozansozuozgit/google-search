@@ -340,3 +340,44 @@ hr {
 #right-arrow:hover {
   cursor: pointer;
 }
+
+/* People ask rows */
+
+#people-ask-container {
+  margin-top: 40px;
+  border: 1px solid #dfe1e5;
+  border-radius: 10px;
+  width: 720px;
+}
+
+#people-ask-container:last-child {
+  border-bottom: none;
+}
+
+#people-ask-heading {
+  padding: 12px 16px;
+  font-size: 22px;
+  font-weight: normal;
+  margin: 0;
+  border-bottom: 1px solid #dfe1e5;
+}
+
+.people-ask-row {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 0; */
+  border-bottom: 1px solid #dfe1e5;
+  padding: 0 15px;
+  /* flex-direction: row; */
+}
+
+.people-ask-question {
+  margin: 0;
+  padding: 12px 0;
+  font-size: 18px;
+}
+
+#down-expand-icon {
+  height: 30px;
+  align-self: center;
+}
