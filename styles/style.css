@@ -267,7 +267,59 @@ hr {
   margin-bottom: -6px;
   padding: 0 10px;
 }
-#videos-header {
+#videos-intro {
   font-weight: normal;
   font-size: 23px;
+}
+
+/* VIDEOS */
+#videos-container {
+  display: flex;
+  /* border: 1px solid black; */
+  width: 720px;
+}
+
+.card-container {
+  margin-right: 5px;
+  max-width: 33%;
+  border: 1px solid #dfe1e5;
+  border-radius: 10px;
+}
+
+.video-images {
+  width: 98%;
+  padding-left: 2px;
+  margin-top: 2px;
+  height: 130px;
+}
+
+.video-headings {
+  display: block;
+  color: #1a0cab;
+  padding: 14px;
+  font-size: 19px;
+  line-height: 25px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.video-channel-name {
+  padding-left: 12px;
+  margin-top: 50px;
+  margin-bottom: 0;
+  color: #5f6368;
+  font-size: 16px;
+}
+
+.youtube-date {
+  padding-left: 12px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+.youtube-date span {
+  color: #5f6368;
+}
+
+.video-link:hover {
+  text-decoration: underline;
 }
