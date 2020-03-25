@@ -348,6 +348,7 @@ hr {
   border: 1px solid #dfe1e5;
   border-radius: 10px;
   width: 720px;
+  margin-bottom: 50px;
 }
 
 #people-ask-container:last-child {
@@ -380,4 +381,8 @@ hr {
 #down-expand-icon {
   height: 30px;
   align-self: center;
+}
+
+.result-date {
+  color: #5f6368;
 }
