@@ -7,10 +7,6 @@ a {
   text-decoration: none;
 }
 
-a:visited {
-  /* color: #609; */
-}
-
 #main-input-container {
   display: flex;
   justify-content: space-between;
