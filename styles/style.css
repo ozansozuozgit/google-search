@@ -133,7 +133,6 @@ a:visited {
 .link-container {
   padding-right: 10px;
   padding-left: 10px;
-  /* font-size: 14px; */
   color: #5f6368;
 }
 .link-container:hover {
@@ -142,7 +141,6 @@ a:visited {
 
 .nav-icons {
   margin-bottom: -4px;
-
   margin-right: 5px;
   height: 18px;
 }
@@ -160,14 +158,12 @@ a:visited {
 }
 hr {
   height: 1px;
-
   margin: 0;
   opacity: 0.2;
 }
 
 #results-info {
   margin-left: 200px;
-  /* font-size: 15px; */
   min-width: 1000px;
   margin-bottom: 0;
   color: #5f6368;
@@ -572,7 +568,6 @@ td a:hover {
   font-weight: normal;
   color: rgb(124, 124, 124);
   padding-right: 10px;
-  /* font-size: 16px; */
   margin: 15px 0;
 }
 
@@ -605,7 +600,6 @@ footer {
 }
 
 .footer-links {
-  /* font-size: 16px; */
   color: rgb(124, 124, 124);
   padding-left: 27px;
 }
